@@ -9,9 +9,9 @@ public class BloodData {
     public BloodData(){
         this("O","+");
     }
-    public BloodData(String bloodType, String BloodRh){
+    public BloodData(String bloodType, String bloodRh){
         this.bloodType = bloodType;
-        this.bloodRh = BloodRh;
+        this.bloodRh = bloodRh;
     }
 
     public String getBloodType() {
